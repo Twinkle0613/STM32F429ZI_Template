@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template\Conf\Startup /I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template /I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template\Conf /I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template\Conf\Driver /I..\..\..\..\..\..\..\Desktop\STM32F429ZI_Template\Conf\CMSIS /I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy /I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver\Inc /I..\..\..\..\..\..\..\Desktop\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver">
+      <source file="..\..\..\Conf\Startup\stm32f4xx_hal_def.h" lastModified="15494cd4850">
+         <include file="..\..\..\Conf\Startup\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\core_cmFunc.h" lastModified="14c0ebd8a48">
+      </source>
+      <source file="..\..\..\Conf\Startup\startup_stm32f429xx.s" lastModified="1552e7f5a10">
+      </source>
+      <source file="..\..\..\Conf\CMSIS\core_cm4.h" lastModified="14c0ebd8278">
+         <include file="..\..\..\Conf\CMSIS\core_cmInstr.h"/>
+         <include file="..\..\..\Conf\CMSIS\core_cmFunc.h"/>
+         <include file="..\..\..\Conf\CMSIS\core_cmSimd.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\core_cmInstr.h" lastModified="14c0ebd8a48">
+      </source>
+      <source file="..\..\..\Conf\Startup\stm32f4xx.h" lastModified="1552e7f8508">
+         <include file="..\..\..\Conf\Startup\stm32f429xx.h"/>
+         <include file="..\..\..\Conf\Driver\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\Conf\Startup\stm32f429xx.h" lastModified="1552e7f5df8">
+         <include file="..\..\..\Conf\CMSIS\core_cm4.h"/>
+         <include file="..\..\..\Conf\Startup\system_stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\Startup\system_stm32f4xx.h" lastModified="1552e7f5a10">
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal_cortex.h" lastModified="1552edf15e0">
+         <include file="..\..\..\Conf\Startup\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\Conf\Startup\system_stm32f4xx.c" lastModified="1552e7f5a10">
+         <include file="..\..\..\Conf\Startup\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\Startup\stm32f4xx_hal_conf.h" lastModified="1552e7fdee0">
+         <include file="..\..\..\Conf\Driver\stm32f4xx_hal_rcc.h"/>
+         <include file="..\..\..\Conf\Driver\stm32f4xx_hal_gpio.h"/>
+         <include file="..\..\..\Conf\Driver\stm32f4xx_hal_cortex.h"/>
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal_rcc.h" lastModified="1552edf19c8">
+         <include file="..\..\..\Conf\Startup\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal_rcc.c" lastModified="1552edf15e0">
+         <include file="..\..\..\Conf\Driver\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal_gpio.h" lastModified="1552edf19c8">
+         <include file="..\..\..\Conf\Startup\stm32f4xx_hal_def.h"/>
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal_gpio.c" lastModified="1552edf15e0">
+         <include file="..\..\..\Conf\Driver\stm32f4xx_hal.h"/>
+      </source>
+      <source file="..\..\..\Conf\CMSIS\core_cmSimd.h" lastModified="14c0ebd8a48">
+      </source>
+      <source file="..\..\..\app\main.c" lastModified="1552f2accb0">
+         <include file="..\..\..\Conf\Startup\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal.h" lastModified="14c0ebfff30">
+         <include file="..\..\..\Conf\Startup\stm32f4xx_hal_conf.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf\Startup /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf\Driver /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf\CMSIS /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver\Inc /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template">
+      <source file="..\..\..\Conf\Startup\stm32f429xx.h" lastModified="1552e7f5a3c">
+         <include file="..\..\..\Conf\CMSIS\core_cm4.h"/>
+         <include file="..\..\..\Conf\Startup\system_stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal.h" lastModified="14c0ebfff30">
+         <include file="..\..\..\Conf\Startup\stm32f4xx_hal_conf.h"/>
+      </source>
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal.c" lastModified="14c0ebff760">
+         <include file="..\..\..\Conf\Driver\stm32f4xx_hal.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf\Startup /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf\Driver /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf\Driver\ex /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template\Conf\CMSIS /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32Cube_FW_F4_V1.12.0\Drivers\STM32F4xx_HAL_Driver\Inc /I..\..\..\..\..\..\..\Desktop\STM32F4\STM32F429ZI_Template">
+      <source file="..\..\..\Conf\Driver\stm32f4xx_hal.h" lastModified="14c0ebfff30">
+         <include file="..\..\..\Conf\Startup\stm32f4xx_hal_conf.h"/>
+      </source>
+   </includePath>
+</dependencies>

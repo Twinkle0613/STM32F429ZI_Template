@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g2 -Map=Test.map -O0 --gc-sections -LC:/Users/Hwa-Neng/Desktop/STM32F429ZI_Template -TC:/Users/Hwa-Neng/Desktop/STM32F429ZI_Template/stm32f429zi_flash.ld -g">
+      <target file="Test.elf" lastModified="1555345e0ff">
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1555345dce2"/>
+         <source file="..\obj\stm32f4xx_hal.o" lastModified="1555345da69"/>
+         <source file="..\obj\stm32f4xx_hal_gpio.o" lastModified="1555345de26"/>
+         <source file="..\obj\stm32f4xx_hal_rcc.o" lastModified="1555345dc31"/>
+         <source file="..\obj\startup_stm32f429xx.o" lastModified="1555345d884"/>
+         <source file="..\obj\main.o" lastModified="1555345d85e"/>
+      </target>
+   </processor>
+</history>
